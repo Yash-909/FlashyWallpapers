@@ -225,7 +225,7 @@ header li{
     width: 370px;      /* Underline length */
     height: 4px;      /* Thickness */
 
-    background: tomato;
+    background: #0f172a;
     border-radius: 50px;
 }
 
@@ -280,7 +280,7 @@ header li{
     width: 350px;      /* Underline length */
     height: 4px;      /* Thickness */
 
-    background: tomato;
+    background: #0f172a;
     border-radius: 50px;
 } 
 
@@ -336,7 +336,7 @@ header li{
     width: 220px;      /* Underline length */
     height: 4px;      /* Thickness */
 
-    background: tomato;
+    background: #0f172a;
     border-radius: 50px;
 }
 

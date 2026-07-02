@@ -114,3 +114,29 @@ body{
     font-size: 25px;
     font-weight: 600;
 }
+
+.title-page-1::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+
+    width: 180px;      /* Underline length */
+    height: 4px;      /* Thickness */
+
+    background: #0f172a;
+    border-radius: 50px;
+}
+
+.title-page-2::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+
+    width: 160px;      /* Underline length */
+    height: 4px;      /* Thickness */
+
+    background: #0f172a;
+    border-radius: 50px;
+}

@@ -140,3 +140,109 @@ body{
     background: #0f172a;
     border-radius: 50px;
 }
+
+/* For privacy policy */
+.hero-2{
+    height: 300px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+/* Dark overlay for better text readability */
+.hero-2::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.45);
+}
+
+.hero-content-2{
+    position: relative;
+    z-index: 1;
+}
+
+.hero-2 h1{
+    font-size: 3.5rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+}
+
+.hero-2 a{
+    font-size: 1.2rem;
+    color: tomato;
+}
+
+.hero-2 span{
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+}
+
+.hero-2 p{
+    font-size: 1.2rem;
+    color: #000000;
+}
+
+.policy-hero{
+    height: 250px;
+    background: url("../images/img.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.policy-hero h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.policy-hero p{
+    color: #0f172a;
+    font-size: 18px;
+}
+
+.policy-container{
+    max-width: 900px;
+    margin: 0 auto 100px auto;
+    padding: 0 20px;
+    color: #0f172a;
+}
+
+.policy-container h2{
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+}
+
+.policy-container p{
+    margin-bottom: 20px;
+    line-height: 1.8;
+    color: #0f172a;
+}
+
+.policy-container ul{
+    margin-left: 25px;
+    margin-bottom: 25px;
+    display: block;
+}
+
+.policy-container li{
+    margin-bottom: 10px;
+    color: #0f172a;
+}
+
